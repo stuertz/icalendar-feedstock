@@ -1,5 +1,5 @@
 {% set name = "icalendar" %}
-{% set version = "7.0.0" %}
+{% set version = "7.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/icalendar-{{ version }}.tar.gz
-  sha256: 5c69cf317177668748793bdecbe93d0850ceca8d450bbf27c8fa1a14e2e71223
+  sha256: 68a6295f31ed907885ae79f10336b53ba067e0a66075b6a956abbe5e89ac7b39
 
 build:
   noarch: python
