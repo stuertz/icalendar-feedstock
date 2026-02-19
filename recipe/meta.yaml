@@ -26,6 +26,7 @@ requirements:
     - python >={{ python_min }}
     - python-dateutil
     - python-tzdata
+    - typing-extensions
 
 test:
   imports:
